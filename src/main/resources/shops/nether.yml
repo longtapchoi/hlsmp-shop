@@ -1,0 +1,177 @@
+title: "&#444444ѕʜᴏᴘ - ɴᴇᴛʜᴇʀ"
+rows: 3
+
+money-cost-placeholder: "%vault_eco_balance%"
+
+back-button:
+  slot: 18
+  material: RED_STAINED_GLASS_PANE
+  displayname: "&#f00f0cʙᴀᴄᴋ"
+  lore:
+    - "&fClick to go back"
+
+filler:
+  enabled: false
+  material: "GRAY_STAINED_GLASS_PANE"
+  displayname: "&7 "
+  rows: 3
+  lore:
+    - "&7"
+
+page-arrows:
+  next-page:
+    material: ARROW
+    slot: 23
+    displayName: "&#0df37dNext Page"
+    lore:
+      - "&fClick to go to next page"
+  previous-page:
+    material: ARROW
+    slot: 21
+    displayName: "&#0df37dPrevious Page"
+    lore:
+      - "&fClick to go to previous page"
+
+items:
+  rod:
+    price: 150
+    slot: 9
+    giveitem: true
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: BLAZE_ROD
+    displayname: ''
+    amount: 1
+    lore:
+      - '&fBuy Price: &#0bf52b$%price%'
+
+  wart:
+    price: 96
+    slot: 10
+    giveitem: true
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: NETHER_WART
+    displayname: ''
+    amount: 1
+    lore:
+      - '&fBuy Price: &#0bf52b$%price%'
+
+  dust:
+    price: 15
+    slot: 11
+    giveitem: true
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: GLOWSTONE_DUST
+    displayname: ''
+    amount: 1
+    lore:
+      - '&fBuy Price: &#0bf52b$%price%'
+
+  cream:
+    price: 96
+    slot: 12
+    giveitem: true
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: MAGMA_CREAM
+    displayname: ''
+    amount: 1
+    lore:
+      - '&fBuy Price: &#0bf52b$%price%'
+
+  ghast:
+    price: 350
+    slot: 13
+    giveitem: true
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: GHAST_TEAR
+    displayname: ''
+    amount: 1
+    lore:
+      - '&fBuy Price: &#0bf52b$%price%'
+
+  quartz:
+    price: 30
+    slot: 14
+    giveitem: true
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: QUARTZ
+    displayname: ''
+    amount: 1
+    lore:
+      - '&fBuy Price: &#0bf52b$%price%'
+
+  soul:
+    price: 50
+    slot: 15
+    giveitem: true
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: SOUL_SAND
+    displayname: ''
+    amount: 1
+    lore:
+      - '&fBuy Price: &#0bf52b$%price%'
+
+  magma:
+    price: 35
+    slot: 16
+    giveitem: true
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: MAGMA_BLOCK
+    displayname: ''
+    amount: 1
+    lore:
+      - '&fBuy Price: &#0bf52b$%price%'
+
+  cobsidian:
+    price: 150
+    slot: 17
+    giveitem: true
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: CRYING_OBSIDIAN
+    displayname: ''
+    amount: 1
+    lore:
+      - '&fBuy Price: &#0bf52b$%price%'
+
+#page2:
+#
+#  apple:
+#    price: 50
+#    slot: 9
+#    giveitem: true
+#    givelore: false
+#    command: ''
+#    material: APPLE
+#    displayname: ''
+#    amount: 1
+#    lore:
+#      - '&fBuy Price: &#0bf52b$%price%'
+#
+#  carrot:
+#    price: 50
+#    slot: 10
+#    giveitem: true
+#    givelore: false
+#    command: ''
+#    material: CARROT
+#    displayname: ''
+#    amount: 1
+#    lore:
+#      - '&fBuy Price: &#0bf52b$%price%'
