@@ -1,0 +1,26 @@
+name: DonutShop
+version: '1.0-SNAPSHOT'
+main: me.clanify.donutShop.DonutShop
+api-version: '1.21'
+
+softdepend:
+  - Vault
+  - PlaceholderAPI
+
+commands:
+  shop:
+    usage: /shop
+  donutshop:
+
+    usage: /donutshop <reload|addhanditem>
+
+
+  toggleshopmessages:
+    usage: /<command>
+    permission: none
+
+permissions:
+  donutshop.open:
+    default: true
+  donutshop.reload:
+    default: op
