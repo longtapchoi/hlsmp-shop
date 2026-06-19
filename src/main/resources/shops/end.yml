@@ -1,0 +1,188 @@
+title: '&#444444ѕʜᴏᴘ - ᴇɴᴅ'
+rows: 3
+
+money-cost-placeholder: '%vault_eco_balance%'
+
+# Don vi tien hien thi trong lore xac nhan mua (confirm-menu).
+currency-suffix: "$"
+
+# Dan link webhook Discord vao day neu muon log giao dich mua hang cua shop nay. De trong = khong gui.
+discord-webhook-url: ""
+
+# Ten shop hien thi o footer khi gui log Discord. Neu khong dien se dung ten file (vd "shopcoin").
+discord-shop-name: "End Shop"
+
+back-button:
+  slot: 18
+  material: RED_STAINED_GLASS_PANE
+  displayname: '&#f00f0cʙᴀᴄᴋ'
+  lore:
+    - '&fNhấn để quay lại'
+
+filler:
+  enabled: false
+  material: GRAY_STAINED_GLASS_PANE
+  displayname: '&7 '
+  rows: 3
+  lore:
+    - '&7'
+
+page-arrows:
+  next-page:
+    material: ARROW
+    slot: 23
+    displayName: '&#0df37dTrang Sau'
+    lore:
+      - '&fNhấn để sang trang sau'
+  previous-page:
+    material: ARROW
+    slot: 21
+    displayName: '&#0df37dTrang Trước'
+    lore:
+      - '&fNhấn để về trang trước'
+
+items:
+  echest:
+    price: 2500
+    slot: 9
+    giveitem: true
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: ENDER_CHEST
+    displayname: ''
+    amount: 1
+    lore:
+      - '&fGiá: &#0bf52b$%price%'
+
+  pearl:
+    price: 75
+    slot: 10
+    giveitem: true
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: ENDER_PEARL
+    displayname: ''
+    amount: 1
+    lore:
+      - '&fGiá: &#0bf52b$%price%'
+
+  endstone:
+    price: 128
+    slot: 11
+    giveitem: true
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: END_STONE
+    displayname: ''
+    amount: 16
+    lore:
+      - '&fGiá: &#0bf52b$%price%'
+
+  dragon_breath:
+    price: 1000
+    slot: 12
+    giveitem: true
+    givelore: true
+    hide_attributes: false
+    command: ''
+    material: DRAGON_BREATH
+    displayname: ''
+    amount: 1
+    lore:
+      - '&fGiá: &#0bf52b$%price%'
+
+  endrod:
+    price: 100
+    slot: 13
+    giveitem: true
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: END_ROD
+    displayname: ''
+    amount: 1
+    lore:
+      - '&fGiá: &#0bf52b$%price%'
+
+  fruit:
+    price: 24
+    slot: 14
+    giveitem: true
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: CHORUS_FRUIT
+    displayname: ''
+    amount: 1
+    lore:
+      - '&fGiá: &#0bf52b$%price%'
+
+  Pfruit:
+    price: 24
+    slot: 15
+    giveitem: true
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: POPPED_CHORUS_FRUIT
+    displayname: ''
+    amount: 1
+    lore:
+      - '&fGiá: &#0bf52b$%price%'
+
+  shell:
+    price: 350
+    slot: 16
+    giveitem: true
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: SHULKER_SHELL
+    displayname: ''
+    amount: 1
+    lore:
+      - '&fGiá: &#0bf52b$%price%'
+
+  shulkerbox:
+    price: 800
+    slot: 17
+    giveitem: true
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: SHULKER_BOX
+    displayname: ''
+    amount: 1
+    lore:
+      - '&fGiá: &#0bf52b$%price%'
+
+
+
+# page2:
+#
+#  apple:
+#    price: 50
+#    slot: 9
+#    giveitem: true
+#    givelore: false
+#    command: ''
+#    material: APPLE
+#    displayname: ''
+#    amount: 1
+#    lore:
+#      - '&fGiá: &#0bf52b$%price%'
+#
+#  carrot:
+#    price: 50
+#    slot: 10
+#    giveitem: true
+#    givelore: false
+#    command: ''
+#    material: CARROT
+#    displayname: ''
+#    amount: 1
+#    lore:
+#      - '&fGiá: &#0bf52b$%price%'

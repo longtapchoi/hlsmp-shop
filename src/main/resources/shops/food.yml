@@ -1,0 +1,185 @@
+title: "&#444444ѕʜᴏᴘ - ꜰᴏᴏᴅ"
+rows: 3
+
+money-cost-placeholder: "%vault_eco_balance%"
+
+# Don vi tien hien thi trong lore xac nhan mua (confirm-menu).
+currency-suffix: "$"
+
+# Dan link webhook Discord vao day neu muon log giao dich mua hang cua shop nay. De trong = khong gui.
+discord-webhook-url: ""
+
+# Ten shop hien thi o footer khi gui log Discord. Neu khong dien se dung ten file (vd "shopcoin").
+discord-shop-name: "Food Shop"
+
+back-button:
+  slot: 18
+  material: RED_STAINED_GLASS_PANE
+  displayname: "&#f00f0cʙᴀᴄᴋ"
+  lore:
+    - "&fNhấn để quay lại"
+
+filler:
+  enabled: false
+  material: "GRAY_STAINED_GLASS_PANE"
+  displayname: "&7 "
+  rows: 3
+  lore:
+    - "&7"
+
+page-arrows:
+  next-page:
+    material: ARROW
+    slot: 23
+    displayName: "&#0df37dTrang Sau"
+    lore:
+      - "&fNhấn để sang trang sau"
+  previous-page:
+    material: ARROW
+    slot: 21
+    displayName: "&#0df37dTrang Trước"
+    lore:
+      - "&fNhấn để về trang trước"
+
+items:
+  potato:
+    price: 96
+    slot: 9
+    giveitem: true
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: POTATO
+    displayname: ''
+    amount: 1
+    lore:
+      - '&fGiá: &#0bf52b$%price%'
+
+  sweet-berry:
+    price: 50
+    slot: 10
+    giveitem: true
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: SWEET_BERRIES
+    displayname: ''
+    amount: 1
+    lore:
+      - '&fGiá: &#0bf52b$%price%'
+
+  melon:
+    price: 18
+    slot: 11
+    giveitem: true
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: MELON_SLICE
+    displayname: ''
+    amount: 1
+    lore:
+      - '&fGiá: &#0bf52b$%price%'
+
+  carrot:
+    price: 96
+    slot: 12
+    giveitem: true
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: CARROT
+    displayname: ''
+    amount: 1
+    lore:
+      - '&fGiá: &#0bf52b$%price%'
+
+  apple:
+    price: 25
+    slot: 13
+    giveitem: true
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: APPLE
+    displayname: ''
+    amount: 1
+    lore:
+      - '&fGiá: &#0bf52b$%price%'
+
+  chicken:
+    price: 48
+    slot: 14
+    giveitem: true
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: COOKED_CHICKEN
+    displayname: ''
+    amount: 1
+    lore:
+      - '&fGiá: &#0bf52b$%price%'
+
+  steak:
+    price: 35
+    slot: 15
+    giveitem: true
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: COOKED_BEEF
+    displayname: ''
+    amount: 1
+    lore:
+      - '&fGiá: &#0bf52b$%price%'
+
+  gcarrot:
+    price: 120
+    slot: 16
+    giveitem: true
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: GOLDEN_CARROT
+    displayname: ''
+    amount: 1
+    lore:
+      - '&fGiá: &#0bf52b$%price%'
+  gapple:
+    price: 250
+    slot: 17
+    giveitem: true
+    givelore: true
+    hide_attributes: false
+    command: ''
+    material: GOLDEN_APPLE
+    displayname: ''
+    amount: 1
+    lore:
+      - '&fGiá: &#0bf52b$%price%'
+
+#page2:
+#
+#  apple:
+#    price: 50
+#    slot: 9
+#    giveitem: true
+#    givelore: false
+#    command: ''
+#    material: APPLE
+#    displayname: ''
+#    amount: 1
+#    lore:
+#      - '&fGiá: &#0bf52b$%price%'
+#
+#  carrot:
+#    price: 50
+#    slot: 10
+#    giveitem: true
+#    givelore: false
+#    command: ''
+#    material: CARROT
+#    displayname: ''
+#    amount: 1
+#    lore:
+#      - '&fGiá: &#0bf52b$%price%'

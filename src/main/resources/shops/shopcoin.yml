@@ -1,0 +1,2102 @@
+title: "&#444444ѕʜᴏᴘ - ᴄᴏɪɴ sʜᴏᴘ"
+rows: 6
+
+money-cost-placeholder: "%playerpoints_points%"
+money-withdraw-command: "points take %player% %price%"
+
+# Đơn vị tiền hiển thị trong lore xác nhận mua (confirm-menu). Để dạng small-caps cho đồng bộ với lore item.
+currency-suffix: "ᴄᴏɪɴ"
+
+# Dán link webhook Discord vào đây nếu muốn log giao dịch mua hàng của shop này. Để trống "" = không gửi.
+discord-webhook-url: ""
+
+# Ten shop hien thi o footer khi gui log Discord. Neu khong dien se dung ten file (vd "shopcoin").
+discord-shop-name: "ShopCoin"
+
+back-button:
+  slot: 45
+  material: RED_STAINED_GLASS_PANE
+  displayname: "&#f00f0cQUAY LẠI"
+  lore:
+    - "&fNhấn để quay lại"
+
+filler:
+  enabled: false
+  material: "GRAY_STAINED_GLASS_PANE"
+  displayname: "&7 "
+  rows: 6
+  lore:
+    - "&7"
+
+page-arrows:
+  next-page:
+    material: ARROW
+    slot: 50
+    displayName: "&#0df37dTrang Tiếp"
+    lore:
+      - "&fNhấn để sang trang sau"
+  previous-page:
+    material: ARROW
+    slot: 48
+    displayName: "&#0df37dTrang Trước"
+    lore:
+      - "&fNhấn để về trang trước"
+
+items:
+  f1-h1-1:
+    price: 0
+    slot: 1
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f1-h1-2:
+    price: 0
+    slot: 2
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f1-h1-3:
+    price: 0
+    slot: 3
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f1-h1-4:
+    price: 0
+    slot: 4
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f1-h1-5:
+    price: 0
+    slot: 5
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f1-h1-6:
+    price: 0
+    slot: 6
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f1-h1-7:
+    price: 0
+    slot: 7
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f1-h2-9:
+    price: 0
+    slot: 9
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f1-h2-10:
+    price: 0
+    slot: 10
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f1-h2-11:
+    price: 0
+    slot: 16
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  coin-booster:
+    price: 30
+    slot: 15
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    enchant_glint: true
+    command: 'pr givebooster %player%'
+    material: POTION
+    displayname: '&6ᴄᴏɪɴ ʙᴏᴏꜱᴛᴇʀ'
+    amount: 1
+    lore:
+      - '&7Tăng X4 tốc độ nhận FreeCoin'
+      - '&7Hiệu lực 3 ngày kể từ khi kích hoạt'
+      - '&8Sử dụng để kích hoạt'
+      - ''
+      - '&fɢɪá: &630 ᴄᴏɪɴ'
+
+  f1-h2-16:
+    price: 350
+    slot: 14
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    enchant_glint: true
+    command: 'tool give %player% hoe 1'
+    material: NETHERITE_HOE
+    displayname: "&#A20AD6ᴀᴍᴇᴛʜʏꜱᴛ ʜᴏᴇ "
+    amount: 1
+    lore: 
+      - '&7Cuốc 3x3 cùng một lúc'
+      - '&8Hạn sử dụng:'
+      - '&87 ngày'
+      - ''
+      - '&fɢɪá: &6350 ᴄᴏɪɴ'
+
+  f1-h2-17:
+    price: 0
+    slot: 17
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f1-h3-18:
+    price: 0
+    slot: 18
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f1-h3-19:
+    price: 0
+    slot: 19
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f1-h3-20:
+    price: 0
+    slot: 20
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f1-h3-21:
+    price: 0
+    slot: 21
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f1-h3-22:
+    price: 0
+    slot: 22
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f1-h3-23:
+    price: 0
+    slot: 23
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f1-h3-24:
+    price: 0
+    slot: 24
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f1-h3-25:
+    price: 0
+    slot: 25
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f1-h3-26:
+    price: 0
+    slot: 26
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f1-h4-27:
+    price: 0
+    slot: 27
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  spawner-pig:
+    price: 300
+    slot: 28
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    enchant_glint: true
+    command: 'give %player% pig_spawner 1'
+    material: SPAWNER
+    displayname: '&dSpawner'
+    amount: 1
+    lore:
+      - '&eLợn'
+      - ''
+      - '&fɢɪá: &6300 ᴄᴏɪɴ'
+  spawner-cow:
+    price: 300
+    slot: 29
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    enchant_glint: true
+    command: 'give %player% cow_spawner 1'
+    material: SPAWNER
+    displayname: '&dSpawner'
+    amount: 1
+    lore:
+      - '&eBò'
+      - ''
+      - '&fɢɪá: &6300 ᴄᴏɪɴ'
+  spawner-zombie:
+    price: 300
+    slot: 30
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    enchant_glint: true
+    command: 'give %player% zombie_spawner 1'
+    material: SPAWNER
+    displayname: '&dSpawner'
+    amount: 1
+    lore:
+      - '&eZombie'
+      - ''
+      - '&fɢɪá: &6300 ᴄᴏɪɴ'
+  spawner-skeleton:
+    price: 300
+    slot: 31
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    enchant_glint: true
+    command: 'give %player% skeleton_spawner 1'
+    material: SPAWNER
+    displayname: '&dSpawner'
+    amount: 1
+    lore:
+      - '&eXương Khô'
+      - ''
+      - '&fɢɪá: &6300 ᴄᴏɪɴ'
+  spawner-creeper:
+    price: 300
+    slot: 32
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    enchant_glint: true
+    command: 'give %player% creeper_spawner 1'
+    material: SPAWNER
+    displayname: '&dSpawner'
+    amount: 1
+    lore:
+      - '&eCreeper'
+      - ''
+      - '&fɢɪá: &6300 ᴄᴏɪɴ'
+  spawner-spider:
+    price: 300
+    slot: 33
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    enchant_glint: true
+    command: 'give %player% spider_spawner 1'
+    material: SPAWNER
+    displayname: '&dSpawner'
+    amount: 1
+    lore:
+      - '&eNhện'
+      - ''
+      - '&fɢɪá: &6300 ᴄᴏɪɴ'
+  spawner-blaze:
+    price: 300
+    slot: 34
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    enchant_glint: true
+    command: 'give %player% blaze_spawner 1'
+    material: SPAWNER
+    displayname: '&dSpawner'
+    amount: 1
+    lore:
+      - '&eBlaze'
+      - ''
+      - '&fɢɪá: &6300 ᴄᴏɪɴ'
+  f1-h4-35:
+    price: 0
+    slot: 35
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  p1-netherite-pickaxe:
+    price: 350
+    slot: 11
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    enchant_glint: true
+    command: 'tool give %player% drill 1'
+    material: NETHERITE_PICKAXE
+    displayname: '&#A20AD6ᴀᴍᴇᴛʜʏꜱᴛ ᴘɪᴄᴋᴀxᴇ'
+    amount: 1
+    lore:
+      - '&7Phá 3x3 mỗi lần đào'
+      - '&8Hạn sử dụng:'
+      - '&87 ngày'
+      - ''
+      - '&fɢɪá: &6350 ᴄᴏɪɴ'
+  p1-netherite-axe:
+    price: 350
+    slot: 12
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    enchant_glint: true
+    command: 'tool give %player% treechopper 1'
+    material: NETHERITE_AXE
+    displayname: '&#A20AD6ᴀᴍᴇᴛʜʏꜱᴛ ᴀxᴇ'
+    amount: 1
+    lore:
+      - '&7Chặt cả cây mỗi lần đốn'
+      - '&8Hạn sử dụng:'
+      - '&87 ngày'
+      - ''
+      - '&fɢɪá: &6350 ᴄᴏɪɴ'
+  p1-netherite-shovel:
+    price: 350
+    slot: 13
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    enchant_glint: true
+    command: 'tool give %player% shovel 1'
+    material: NETHERITE_SHOVEL
+    displayname: ' &#A20AD6ᴀᴍᴇᴛʜʏꜱᴛ ꜱʜᴏᴠᴇʟ'
+    amount: 1
+    lore:
+      - '&7Phá 3x3 mỗi lần đào'
+      - '&8Hạn sử dụng:'
+      - '&87 ngày'
+      - ''
+      - '&fɢɪá: &6350 ᴄᴏɪɴ'
+  f1-h5-37:
+    price: 0
+    slot: 37
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f1-h5-38:
+    price: 0
+    slot: 38
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f1-h5-39:
+    price: 0
+    slot: 39
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f1-h5-40:
+    price: 0
+    slot: 40
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f1-h5-41:
+    price: 0
+    slot: 41
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f1-h5-42:
+    price: 0
+    slot: 42
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f1-h5-43:
+    price: 0
+    slot: 43
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+
+page2:
+  f2-h1-1:
+    price: 0
+    slot: 1
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f2-h1-2:
+    price: 0
+    slot: 2
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f2-h1-3:
+    price: 0
+    slot: 3
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f2-h1-4:
+    price: 0
+    slot: 4
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f2-h1-5:
+    price: 0
+    slot: 5
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f2-h1-6:
+    price: 0
+    slot: 6
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f2-h1-7:
+    price: 0
+    slot: 7
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f2-h2-9:
+    price: 0
+    slot: 9
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f2-h2-10:
+    price: 0
+    slot: 10
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  p2-diamond-helmet:
+    price: 10
+    slot: 11
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    enchant_glint: true
+    command: 'minecraft:give %player% diamond_helmet[enchantments={protection:2,unbreaking:1}] 1'
+    material: DIAMOND_HELMET
+    displayname: ''
+    amount: 1
+    lore:
+      - '&7Bảo vệ II'
+      - '&7Chậm hỏng I'
+      - ''
+      - '&fɢɪá: &610 ᴄᴏɪɴ'
+  p2-diamond-chestplate:
+    price: 10
+    slot: 12
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    enchant_glint: true
+    command: 'minecraft:give %player% diamond_chestplate[enchantments={protection:2,unbreaking:1}] 1'
+    material: DIAMOND_CHESTPLATE
+    displayname: ''
+    amount: 1
+    lore:
+      - '&7Bảo vệ II'
+      - '&7Chậm hỏng I'
+      - ''
+      - '&fɢɪá: &610 ᴄᴏɪɴ'
+  p2-diamond-sword:
+    price: 10
+    slot: 13
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    enchant_glint: true
+    command: 'minecraft:give %player% diamond_sword[enchantments={sharpness:2,unbreaking:1,knockback:1}] 1'
+    material: DIAMOND_SWORD
+    displayname: ''
+    amount: 1
+    lore:
+      - '&7Sắc bén II'
+      - '&7Chậm hỏng I'
+      - '&7Đánh bật lùi I'
+      - ''
+      - '&fɢɪá: &610 ᴄᴏɪɴ'
+  p2-diamond-leggings:
+    price: 10
+    slot: 14
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    enchant_glint: true
+    command: 'minecraft:give %player% diamond_leggings[enchantments={protection:2,unbreaking:1,swift_sneak:1}] 1'
+    material: DIAMOND_LEGGINGS
+    displayname: ''
+    amount: 1
+    lore:
+      - '&7Bảo vệ II'
+      - '&7Chậm hỏng I'
+      - '&7Rón rén nhanh I'
+      - ''
+      - '&fɢɪá: &610 ᴄᴏɪɴ'
+  p2-diamond-boots:
+    price: 10
+    slot: 15
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    enchant_glint: true
+    command: 'minecraft:give %player% diamond_boots[enchantments={protection:2,unbreaking:1,feather_falling:1}] 1'
+    material: DIAMOND_BOOTS
+    displayname: ''
+    amount: 1
+    lore:
+      - '&7Bảo vệ II'
+      - '&7Chậm hỏng I'
+      - '&7Bảo vệ khỏi sát thương rơi I'
+      - ''
+      - '&fɢɪá: &610 ᴄᴏɪɴ'
+  f2-h2-16:
+    price: 0
+    slot: 16
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f2-h2-17:
+    price: 0
+    slot: 17
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f2-h3-18:
+    price: 0
+    slot: 18
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f2-h3-19:
+    price: 0
+    slot: 19
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f2-h3-20:
+    price: 0
+    slot: 20
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  p2-diamond-pickaxe:
+    price: 10
+    slot: 22
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    enchant_glint: true
+    command: 'minecraft:give %player% diamond_pickaxe[enchantments={efficiency:2,unbreaking:1}] 1'
+    material: DIAMOND_PICKAXE
+    displayname: ''
+    amount: 1
+    lore:
+      - '&7Hiệu suất II'
+      - '&7Chậm hỏng I'
+      - ''
+      - '&fɢɪá: &610 ᴄᴏɪɴ'
+  f2-h3-22:
+    price: 0
+    slot: 21
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f2-h3-23:
+    price: 0
+    slot: 23
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f2-h3-24:
+    price: 0
+    slot: 24
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f2-h3-25:
+    price: 0
+    slot: 25
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f2-h3-26:
+    price: 0
+    slot: 26
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f2-h4-27:
+    price: 0
+    slot: 27
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f2-h4-28:
+    price: 0
+    slot: 28
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  p2-diamond-axe:
+    price: 10
+    slot: 30
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    enchant_glint: true
+    command: 'minecraft:give %player% diamond_axe[enchantments={sharpness:2,efficiency:2,unbreaking:1}] 1'
+    material: DIAMOND_AXE
+    displayname: ''
+    amount: 1
+    lore:
+      - '&7Sắc bén II'
+      - '&7Hiệu suất II'
+      - '&7Chậm hỏng I'
+      - ''
+      - '&fɢɪá: &610 ᴄᴏɪɴ'
+  p2-diamond-pickaxe2:
+    price: 10
+    slot: 31
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    enchant_glint: true
+    command: 'minecraft:give %player% diamond_hoe[enchantments={efficiency:2,unbreaking:1}] 1'
+    material: DIAMOND_HOE
+    displayname: ''
+    amount: 1
+    lore:
+      - '&7Hiệu suất II'
+      - '&7Chậm hỏng I'
+      - ''
+      - '&fɢɪá: &610 ᴄᴏɪɴ'
+  p2-diamond-shovel:
+    price: 10
+    slot: 32
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    enchant_glint: true
+    command: 'minecraft:give %player% diamond_shovel[enchantments={efficiency:2,unbreaking:1}] 1'
+    material: DIAMOND_SHOVEL
+    displayname: ''
+    amount: 1
+    lore:
+      - '&7Hiệu suất II'
+      - '&7Chậm hỏng I'
+      - ''
+      - '&fɢɪá: &610 ᴄᴏɪɴ'
+  f2-h4-32:
+    price: 0
+    slot: 29
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f2-h4-33:
+    price: 0
+    slot: 33
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f2-h4-34:
+    price: 0
+    slot: 34
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f2-h4-35:
+    price: 0
+    slot: 35
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f2-h5-37:
+    price: 0
+    slot: 37
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f2-h5-38:
+    price: 0
+    slot: 38
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f2-h5-39:
+    price: 0
+    slot: 39
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f2-h5-40:
+    price: 0
+    slot: 40
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f2-h5-41:
+    price: 0
+    slot: 41
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f2-h5-42:
+    price: 0
+    slot: 42
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f2-h5-43:
+    price: 0
+    slot: 43
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+
+page3:
+  f3-h1-1:
+    price: 0
+    slot: 1
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f3-h1-2:
+    price: 0
+    slot: 2
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f3-h1-3:
+    price: 0
+    slot: 3
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f3-h1-4:
+    price: 0
+    slot: 4
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f3-h1-5:
+    price: 0
+    slot: 5
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f3-h1-6:
+    price: 0
+    slot: 6
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f3-h1-7:
+    price: 0
+    slot: 7
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f3-h2-9:
+    price: 0
+    slot: 9
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f3-h2-10:
+    price: 0
+    slot: 10
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  p3-netherite-helmet:
+    price: 200
+    slot: 11
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    enchant_glint: true
+    command: 'minecraft:give %player% netherite_helmet[enchantments={protection:4,unbreaking:3,mending:1,thorns:2}] 1'
+    material: NETHERITE_HELMET
+    displayname: ''
+    amount: 1
+    lore:
+      - '&7Bảo vệ IV'
+      - '&7Chậm hỏng III'
+      - '&7Tu sửa I'
+      - '&7Gai II'
+      - ''
+      - '&fɢɪá: &6200 ᴄᴏɪɴ'
+  p3-netherite-chestplate:
+    price: 200
+    slot: 12
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    enchant_glint: true
+    command: 'minecraft:give %player% netherite_chestplate[enchantments={blast_protection:4,unbreaking:3,mending:1,thorns:2}] 1'
+    material: NETHERITE_CHESTPLATE
+    displayname: ''
+    amount: 1
+    lore:
+      - '&7Bảo vệ khỏi vụ nổ IV'
+      - '&7Chậm hỏng III'
+      - '&7Tu sửa I'
+      - '&7Gai II'
+      - ''
+      - '&fɢɪá: &6200 ᴄᴏɪɴ'
+  p3-netherite-sword:
+    price: 200
+    slot: 13
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    enchant_glint: true
+    command: 'minecraft:give %player% netherite_sword[enchantments={sharpness:5,unbreaking:3,mending:1}] 1'
+    material: NETHERITE_SWORD
+    displayname: ''
+    amount: 1
+    lore:
+      - '&7Sắc bén V'
+      - '&7Chậm hỏng III'
+      - '&7Tu sửa I'
+      - ''
+      - '&fɢɪá: &6200 ᴄᴏɪɴ'
+  p3-netherite-leggings:
+    price: 200
+    slot: 14
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    enchant_glint: true
+    command: 'minecraft:give %player% netherite_leggings[enchantments={projectile_protection:4,unbreaking:3,mending:1,thorns:2}] 1'
+    material: NETHERITE_LEGGINGS
+    displayname: ''
+    amount: 1
+    lore:
+      - '&7Bảo vệ khỏi vật bắn ra IV'
+      - '&7Chậm hỏng III'
+      - '&7Tu sửa I'
+      - '&7Gai II'
+      - ''
+      - '&fɢɪá: &6200 ᴄᴏɪɴ'
+  p3-netherite-boots:
+    price: 200
+    slot: 15
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    enchant_glint: true
+    command: 'minecraft:give %player% netherite_boots[enchantments={feather_falling:4,unbreaking:3,mending:1,thorns:2}] 1'
+    material: NETHERITE_BOOTS
+    displayname: ''
+    amount: 1
+    lore:
+      - '&7Bảo vệ khỏi sát thương rơi IV'
+      - '&7Chậm hỏng III'
+      - '&7Tu sửa I'
+      - '&7Gai II'
+      - ''
+      - '&fɢɪá: &6200 ᴄᴏɪɴ'
+  f3-h2-16:
+    price: 0
+    slot: 16
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f3-h2-17:
+    price: 0
+    slot: 17
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f3-h3-18:
+    price: 0
+    slot: 18
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f3-h3-19:
+    price: 0
+    slot: 19
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f3-h3-20:
+    price: 0
+    slot: 20
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  p3-bow:
+    price: 200
+    slot: 22
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    enchant_glint: true
+    command: 'minecraft:give %player% bow[enchantments={power:5,infinity:1,flame:1,punch:2,unbreaking:3}] 1'
+    material: BOW
+    displayname: ''
+    amount: 1
+    lore:
+      - '&7Sức mạnh V'
+      - '&7Vô hạn I'
+      - '&7Lửa I'
+      - '&7Đẩy lùi II'
+      - '&7Chậm hỏng III'
+      - ''
+      - '&fɢɪá: &6200 ᴄᴏɪɴ'
+  f3-h3-22:
+    price: 0
+    slot: 21
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f3-h3-23:
+    price: 0
+    slot: 23
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f3-h3-24:
+    price: 0
+    slot: 24
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f3-h3-25:
+    price: 0
+    slot: 25
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f3-h3-26:
+    price: 0
+    slot: 26
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f3-h4-27:
+    price: 0
+    slot: 27
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f3-h4-28:
+    price: 0
+    slot: 28
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  p3-netherite-pickaxe:
+    price: 200
+    slot: 30
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    enchant_glint: true
+    command: 'minecraft:give %player% netherite_pickaxe[enchantments={efficiency:5,unbreaking:3,mending:1,fortune:3}] 1'
+    material: NETHERITE_PICKAXE
+    displayname: ''
+    amount: 1
+    lore:
+      - '&7Hiệu suất V'
+      - '&7Chậm hỏng III'
+      - '&7Tu sửa I'
+      - '&7Gia tài III'
+      - ''
+      - '&fɢɪá: &6200 ᴄᴏɪɴ'
+  p3-netherite-axe:
+    price: 200
+    slot: 31
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    enchant_glint: true
+    command: 'minecraft:give %player% netherite_axe[enchantments={sharpness:5,unbreaking:3,mending:1,looting:3}] 1'
+    material: NETHERITE_AXE
+    displayname: ''
+    amount: 1
+    lore:
+      - '&7Sắc bén V'
+      - '&7Chậm hỏng III'
+      - '&7Tu sửa I'
+      - '&7Nhặt III'
+      - ''
+      - '&fɢɪá: &6200 ᴄᴏɪɴ'
+  p3-netherite-shovel:
+    price: 200
+    slot: 32
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    enchant_glint: true
+    command: 'minecraft:give %player% netherite_shovel[enchantments={efficiency:5,unbreaking:3,mending:1,fortune:3}] 1'
+    material: NETHERITE_SHOVEL
+    displayname: ''
+    amount: 1
+    lore:
+      - '&7Hiệu suất V'
+      - '&7Chậm hỏng III'
+      - '&7Tu sửa I'
+      - '&7Gia tài III'
+      - ''
+      - '&fɢɪá: &6200 ᴄᴏɪɴ'
+  f3-h4-32:
+    price: 0
+    slot: 29
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f3-h4-33:
+    price: 0
+    slot: 33
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f3-h4-34:
+    price: 0
+    slot: 34
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f3-h4-35:
+    price: 0
+    slot: 35
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f3-h5-37:
+    price: 0
+    slot: 37
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f3-h5-38:
+    price: 0
+    slot: 38
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f3-h5-39:
+    price: 0
+    slot: 39
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f3-h5-40:
+    price: 0
+    slot: 40
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f3-h5-41:
+    price: 0
+    slot: 41
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f3-h5-42:
+    price: 0
+    slot: 42
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f3-h5-43:
+    price: 0
+    slot: 43
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+
+page4:
+  f4-h1-1:
+    price: 0
+    slot: 1
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f4-h1-2:
+    price: 0
+    slot: 2
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f4-h1-3:
+    price: 0
+    slot: 3
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f4-h1-4:
+    price: 0
+    slot: 4
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f4-h1-5:
+    price: 0
+    slot: 5
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f4-h1-6:
+    price: 0
+    slot: 6
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f4-h1-7:
+    price: 0
+    slot: 7
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f4-h2-9:
+    price: 0
+    slot: 9
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f4-h2-10:
+    price: 0
+    slot: 10
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  p4-netherite-helmet:
+    price: 250
+    slot: 11
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    enchant_glint: true
+    command: 'minecraft:give %player% netherite_helmet[enchantments={protection:4,unbreaking:3,mending:1,respiration:3,aqua_affinity:1,thorns:3}] 1'
+    material: NETHERITE_HELMET
+    displayname: ''
+    amount: 1
+    lore:
+      - '&7Bảo vệ IV'
+      - '&7Chậm hỏng III'
+      - '&7Tu sửa I'
+      - '&7Hô hấp III'
+      - '&7Đào nhanh dưới nước I'
+      - '&7Gai III'
+      - ''
+      - '&fɢɪá: &6250 ᴄᴏɪɴ'
+  p4-netherite-chestplate:
+    price: 250
+    slot: 12
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    enchant_glint: true
+    command: 'minecraft:give %player% netherite_chestplate[enchantments={protection:4,unbreaking:3,mending:1,thorns:3}] 1'
+    material: NETHERITE_CHESTPLATE
+    displayname: ''
+    amount: 1
+    lore:
+      - '&7Bảo vệ IV'
+      - '&7Chậm hỏng III'
+      - '&7Tu sửa I'
+      - '&7Gai III'
+      - ''
+      - '&fɢɪá: &6250 ᴄᴏɪɴ'
+  p4-trident:
+    price: 250
+    slot: 13
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    enchant_glint: true
+    command: 'minecraft:give %player% trident[enchantments={loyalty:3,impaling:5,unbreaking:3,mending:1,channeling:1}] 1'
+    material: TRIDENT
+    displayname: ''
+    amount: 1
+    lore:
+      - '&7Lòng trung thành III'
+      - '&7Xiên vào da thịt V'
+      - '&7Chậm hỏng III'
+      - '&7Tu sửa I'
+      - '&7Chớp điện I'
+      - ''
+      - '&fɢɪá: &6250 ᴄᴏɪɴ'
+  p4-netherite-leggings:
+    price: 250
+    slot: 14
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    enchant_glint: true
+    command: 'minecraft:give %player% netherite_leggings[enchantments={protection:4,unbreaking:3,mending:1,swift_sneak:3,thorns:3}] 1'
+    material: NETHERITE_LEGGINGS
+    displayname: ''
+    amount: 1
+    lore:
+      - '&7Bảo vệ IV'
+      - '&7Chậm hỏng III'
+      - '&7Tu sửa I'
+      - '&7Rón rén nhanh III'
+      - '&7Gai III'
+      - ''
+      - '&fɢɪá: &6250 ᴄᴏɪɴ'
+  p4-netherite-boots:
+    price: 250
+    slot: 15
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    enchant_glint: true
+    command: 'minecraft:give %player% netherite_boots[enchantments={protection:4,unbreaking:3,mending:1,feather_falling:4,depth_strider:3,soul_speed:3,thorns:3}] 1'
+    material: NETHERITE_BOOTS
+    displayname: ''
+    amount: 1
+    lore:
+      - '&7Bảo vệ IV'
+      - '&7Chậm hỏng III'
+      - '&7Tu sửa I'
+      - '&7Bảo vệ khỏi sát thương rơi IV'
+      - '&7Sải bước dưới nước III'
+      - '&7Tốc độ linh hồn III'
+      - '&7Gai III'
+      - ''
+      - '&fɢɪá: &6250 ᴄᴏɪɴ'
+  f4-h2-16:
+    price: 0
+    slot: 16
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f4-h2-17:
+    price: 0
+    slot: 17
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f4-h3-18:
+    price: 0
+    slot: 18
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f4-h3-19:
+    price: 0
+    slot: 19
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f4-h3-20:
+    price: 0
+    slot: 20
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  p4-netherite-sword:
+    price: 250
+    slot: 22
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    enchant_glint: true
+    command: 'minecraft:give %player% netherite_sword[enchantments={sharpness:5,unbreaking:3,mending:1,looting:3,sweeping_edge:3,fire_aspect:2,knockback:2}] 1'
+    material: NETHERITE_SWORD
+    displayname: ''
+    amount: 1
+    lore:
+      - '&7Sắc bén V'
+      - '&7Chậm hỏng III'
+      - '&7Tu sửa I'
+      - '&7Nhặt III'
+      - '&7Quét rộng III'
+      - '&7Gây cháy II'
+      - '&7Đánh bật lùi II'
+      - ''
+      - '&fɢɪá: &6250 ᴄᴏɪɴ'
+  f4-h3-22:
+    price: 0
+    slot: 21
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f4-h3-23:
+    price: 0
+    slot: 23
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f4-h3-24:
+    price: 0
+    slot: 24
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f4-h3-25:
+    price: 0
+    slot: 25
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f4-h3-26:
+    price: 0
+    slot: 26
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f4-h4-27:
+    price: 0
+    slot: 27
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f4-h4-28:
+    price: 0
+    slot: 28
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  p4-netherite-pickaxe:
+    price: 250
+    slot: 30
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    enchant_glint: true
+    command: 'minecraft:give %player% crossbow[enchantments={quick_charge:3,multishot:1,unbreaking:3,mending:1}] 1'
+    material: CROSSBOW
+    displayname: ''
+    amount: 1
+    lore:
+      - '&7Nạp nhanh III'
+      - '&7Mưa tên I'
+      - '&7Chậm hỏng III'
+      - '&7Tu sửa I'
+      - ''
+      - '&fɢɪá: &6250 ᴄᴏɪɴ'
+  p4-netherite-axe:
+    price: 250
+    slot: 31
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    enchant_glint: true
+    command: 'minecraft:give %player% netherite_spear[enchantments={sharpness:5,unbreaking:3,mending:1,looting:3}] 1'
+    material: NETHERITE_SPEAR
+    displayname: ''
+    amount: 1
+    lore:
+      - '&7Sắc bén V'
+      - '&7Chậm hỏng III'
+      - '&7Tu sửa I'
+      - '&7Nhặt III'
+      - ''
+      - '&fɢɪá: &6250 ᴄᴏɪɴ'
+  p4-mace:
+    price: 250
+    slot: 32
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    enchant_glint: true
+    command: 'minecraft:give %player% mace[enchantments={density:5,breach:4,unbreaking:3,mending:1,wind_burst:3,smite:5}] 1'
+    material: MACE
+    displayname: ''
+    amount: 1
+    lore:
+      - '&7Gia trọng V'
+      - '&7Xuyên giáp IV'
+      - '&7Chậm hỏng III'
+      - '&7Tu sửa I'
+      - '&7Phong bộc III'
+      - '&7Hại thây ma V'
+      - ''
+      - '&fɢɪá: &6250 ᴄᴏɪɴ'
+  f4-h4-32:
+    price: 0
+    slot: 29
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f4-h4-33:
+    price: 0
+    slot: 33
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f4-h4-34:
+    price: 0
+    slot: 34
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f4-h4-35:
+    price: 0
+    slot: 35
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f4-h5-37:
+    price: 0
+    slot: 37
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f4-h5-38:
+    price: 0
+    slot: 38
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f4-h5-39:
+    price: 0
+    slot: 39
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f4-h5-40:
+    price: 0
+    slot: 40
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f4-h5-41:
+    price: 0
+    slot: 41
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f4-h5-42:
+    price: 0
+    slot: 42
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []
+  f4-h5-43:
+    price: 0
+    slot: 43
+    giveitem: false
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: PINK_STAINED_GLASS_PANE
+    displayname: "&7 "
+    amount: 1
+    lore: []

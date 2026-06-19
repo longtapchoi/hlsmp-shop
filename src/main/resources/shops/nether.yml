@@ -1,0 +1,186 @@
+title: "&#444444ѕʜᴏᴘ - ɴᴇᴛʜᴇʀ"
+rows: 3
+
+money-cost-placeholder: "%vault_eco_balance%"
+
+# Don vi tien hien thi trong lore xac nhan mua (confirm-menu).
+currency-suffix: "$"
+
+# Dan link webhook Discord vao day neu muon log giao dich mua hang cua shop nay. De trong = khong gui.
+discord-webhook-url: ""
+
+# Ten shop hien thi o footer khi gui log Discord. Neu khong dien se dung ten file (vd "shopcoin").
+discord-shop-name: "Nether Shop"
+
+back-button:
+  slot: 18
+  material: RED_STAINED_GLASS_PANE
+  displayname: "&#f00f0cʙᴀᴄᴋ"
+  lore:
+    - "&fNhấn để quay lại"
+
+filler:
+  enabled: false
+  material: "GRAY_STAINED_GLASS_PANE"
+  displayname: "&7 "
+  rows: 3
+  lore:
+    - "&7"
+
+page-arrows:
+  next-page:
+    material: ARROW
+    slot: 23
+    displayName: "&#0df37dTrang Sau"
+    lore:
+      - "&fNhấn để sang trang sau"
+  previous-page:
+    material: ARROW
+    slot: 21
+    displayName: "&#0df37dTrang Trước"
+    lore:
+      - "&fNhấn để về trang trước"
+
+items:
+  rod:
+    price: 150
+    slot: 9
+    giveitem: true
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: BLAZE_ROD
+    displayname: ''
+    amount: 1
+    lore:
+      - '&fGiá: &#0bf52b$%price%'
+
+  wart:
+    price: 96
+    slot: 10
+    giveitem: true
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: NETHER_WART
+    displayname: ''
+    amount: 1
+    lore:
+      - '&fGiá: &#0bf52b$%price%'
+
+  dust:
+    price: 15
+    slot: 11
+    giveitem: true
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: GLOWSTONE_DUST
+    displayname: ''
+    amount: 1
+    lore:
+      - '&fGiá: &#0bf52b$%price%'
+
+  cream:
+    price: 96
+    slot: 12
+    giveitem: true
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: MAGMA_CREAM
+    displayname: ''
+    amount: 1
+    lore:
+      - '&fGiá: &#0bf52b$%price%'
+
+  ghast:
+    price: 350
+    slot: 13
+    giveitem: true
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: GHAST_TEAR
+    displayname: ''
+    amount: 1
+    lore:
+      - '&fGiá: &#0bf52b$%price%'
+
+  quartz:
+    price: 30
+    slot: 14
+    giveitem: true
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: QUARTZ
+    displayname: ''
+    amount: 1
+    lore:
+      - '&fGiá: &#0bf52b$%price%'
+
+  soul:
+    price: 50
+    slot: 15
+    giveitem: true
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: SOUL_SAND
+    displayname: ''
+    amount: 1
+    lore:
+      - '&fGiá: &#0bf52b$%price%'
+
+  magma:
+    price: 35
+    slot: 16
+    giveitem: true
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: MAGMA_BLOCK
+    displayname: ''
+    amount: 1
+    lore:
+      - '&fGiá: &#0bf52b$%price%'
+
+  cobsidian:
+    price: 150
+    slot: 17
+    giveitem: true
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: CRYING_OBSIDIAN
+    displayname: ''
+    amount: 1
+    lore:
+      - '&fGiá: &#0bf52b$%price%'
+
+#page2:
+#
+#  apple:
+#    price: 50
+#    slot: 9
+#    giveitem: true
+#    givelore: false
+#    command: ''
+#    material: APPLE
+#    displayname: ''
+#    amount: 1
+#    lore:
+#      - '&fGiá: &#0bf52b$%price%'
+#
+#  carrot:
+#    price: 50
+#    slot: 10
+#    giveitem: true
+#    givelore: false
+#    command: ''
+#    material: CARROT
+#    displayname: ''
+#    amount: 1
+#    lore:
+#      - '&fGiá: &#0bf52b$%price%'

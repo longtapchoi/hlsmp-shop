@@ -1,0 +1,140 @@
+# config.yml
+
+confirm-cooldown-ticks: 2
+use-actionbars: false
+play-open-sound: false
+
+enable-messages: true
+messages:
+  purchase-success: "&#10a5ebĐã mua %clicked-amount% %clicked-item-name% với giá %total-price%!"
+  no-permission: "&cBạn không có quyền sử dụng lệnh này."
+  not-enough: "&cBạn cần %total-price% nhưng chỉ có %balance%"
+
+
+sounds:
+  open-sound: "UI_TOAST_IN"
+  click-sound: "UI_BUTTON_CLICK"
+  buy-sound: "ENTITY_EXPERIENCE_ORB_PICKUP"
+  decline-sound: "ENTITY_VILLAGER_NO"
+
+mysql:
+  enabled: false
+  host: "localhost"
+  port: 3306
+  database: "database"
+  username: "username"
+  password: "password"
+
+# Bat/tat toan bo tinh nang log Discord webhook. Link webhook duoc dien rieng trong tung file shops/*.yml
+discord:
+  enabled: true
+
+
+main-menu:
+  rows: 3
+  title: '&#444444ѕʜᴏᴘ'
+  categories:
+
+    end:
+      slot: 11
+      displayname: '&#0bf592ᴇɴᴅ'
+      material: END_STONE
+      action: end
+      command: ""
+      lore:
+        - '&fNhấn để xem shop end'
+    nether:
+      slot: 12
+      displayname: '&#0bf592ɴᴇᴛʜᴇʀ'
+      material: NETHERRACK
+      action: nether
+      command: ""
+      lore:
+        - '&fNhấn để xem shop nether'
+    gear:
+      slot: 13
+      displayname: '&#0bf592ɢᴇᴀʀ'
+      material: TOTEM_OF_UNDYING
+      action: gear
+      command: ""
+      lore:
+        - '&fNhấn để xem shop gear'
+    Food:
+      slot: 14
+      displayname: '&#0bf592ꜰᴏᴏᴅ'
+      material: COOKED_BEEF
+      action: food
+      command: ""
+      lore:
+        - '&fNhấn để xem shop food'
+    shopcoin:
+      slot: 15
+      displayname: '&#0bf592ѕʜᴏᴘᴄᴏɪɴ'
+      material: AMETHYST_SHARD
+      action: shopcoin
+      command: ""
+      lore:
+        - '&fNhấn để xem shopcoin'
+
+confirm-menu:
+  rows: 3
+  use-small-font-title: true
+  title: '&#444444buying {item-name}'
+  confirm-purchase:
+    material: LIME_STAINED_GLASS_PANE
+    slot: 23
+    displayname: '&#0bf52bᴄᴏɴꜰɪʀᴍ'
+    lore:
+      - "&fNhấn để xác nhận mua"
+    action: confirm
+  decline-purchase:
+    material: RED_STAINED_GLASS_PANE
+    slot: 21
+    lore:
+      - "&fNhấn để huỷ"
+    displayname: '&#f5240bʙᴀᴄᴋ'
+    action: back
+  item-purchase:
+    material: '%clicked-item%'
+    amount: '%clicked-amount%'
+    slot: 13
+    lore:
+      - '&fGiá: &#0bf52b%total-price%'
+  add1:
+    material: LIME_STAINED_GLASS_PANE
+    slot: 15
+    amount: 1
+    displayname: '&#0bf52bThêm 1'
+    action: add1
+  add10:
+    material: LIME_STAINED_GLASS_PANE
+    slot: 16
+    amount: 10
+    displayname: '&#0bf52bThêm 10'
+    action: add10
+  add64:
+    material: LIME_STAINED_GLASS_PANE
+    slot: 17
+    amount: 64
+    displayname: '&#0bf52bĐặt thành 64'
+    action: add64
+  remove1:
+    material: RED_STAINED_GLASS_PANE
+    slot: 11
+    amount: 1
+    displayname: '&#f5240bBớt 1'
+    action: remove1
+  remove10:
+    material: RED_STAINED_GLASS_PANE
+    slot: 10
+    amount: 10
+    displayname: '&#f5240bBớt 10'
+    action: remove10
+  remove64:
+    material: RED_STAINED_GLASS_PANE
+    slot: 9
+    amount: 64
+    displayname: '&#f5240bĐặt thành 1'
+    action: remove64
+
+
