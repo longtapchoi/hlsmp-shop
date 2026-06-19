@@ -1,0 +1,187 @@
+title: "&#444444ѕʜᴏᴘ - ɢᴇᴀʀ"
+rows: 3
+
+money-cost-placeholder: "%vault_eco_balance%"
+
+# Don vi tien hien thi trong lore xac nhan mua (confirm-menu).
+currency-suffix: "$"
+
+# Dan link webhook Discord vao day neu muon log giao dich mua hang cua shop nay. De trong = khong gui.
+discord-webhook-url: ""
+
+back-button:
+  slot: 18
+  material: RED_STAINED_GLASS_PANE
+  displayname: "&#f00f0cʙᴀᴄᴋ"
+  lore:
+    - "&fClick to go back"
+
+filler:
+  enabled: false
+  material: "GRAY_STAINED_GLASS_PANE"
+  displayname: "&7 "
+  rows: 3
+  lore:
+    - "&7"
+
+page-arrows:
+  next-page:
+    material: ARROW
+    slot: 23
+    displayName: "&#0df37dNext Page"
+    lore:
+      - "&fClick to go to next page"
+  previous-page:
+    material: ARROW
+    slot: 21
+    displayName: "&#0df37dPrevious Page"
+    lore:
+      - "&fClick to go to previous page"
+
+items:
+
+  obsidian:
+    price: 100
+    slot: 9
+    giveitem: true
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: OBSIDIAN
+    displayname: ''
+    amount: 1
+    lore:
+      - '&fBuy Price: &#0bf52b$%price%'
+
+  cyrstal:
+    price: 350
+    slot: 10
+    giveitem: true
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: END_CRYSTAL
+    displayname: ''
+    amount: 1
+    lore:
+      - '&fBuy Price: &#0bf52b$%price%'
+
+  anchor:
+    price: 1000
+    slot: 11
+    giveitem: true
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: RESPAWN_ANCHOR
+    displayname: ''
+    amount: 1
+    lore:
+      - '&fBuy Price: &#0bf52b$%price%'
+
+  glowstone:
+    price: 100
+    slot: 12
+    giveitem: true
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: GLOWSTONE
+    displayname: ''
+    amount: 1
+    lore:
+      - '&fBuy Price: &#0bf52b$%price%'
+
+  totem:
+    price: 1500
+    slot: 13
+    giveitem: true
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: TOTEM_OF_UNDYING
+    displayname: ''
+    amount: 1
+    lore:
+      - '&fBuy Price: &#0bf52b$%price%'
+
+  pearl:
+    price: 75
+    slot: 14
+    giveitem: true
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: ENDER_PEARL
+    displayname: ''
+    amount: 1
+    lore:
+      - '&fBuy Price: &#0bf52b$%price%'
+
+  gapple:
+    price: 250
+    slot: 15
+    giveitem: true
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: GOLDEN_APPLE
+    displayname: ''
+    amount: 1
+    lore:
+      - '&fBuy Price: &#0bf52b$%price%'
+
+  xp:
+    price: 100
+    slot: 16
+    giveitem: true
+    givelore: false
+    hide_attributes: false
+    command: ''
+    material: EXPERIENCE_BOTTLE
+    displayname: ''
+    amount: 1
+    lore:
+      - '&fBuy Price: &#0bf52b$%price%'
+  arrow:
+    price: 500
+    slot: 17
+    giveitem: true
+    givelore: true
+    hide_attributes: false
+    command: ''
+    material: TIPPED_ARROW
+    displayname: §fTipped Arrow
+    amount: 1
+    potion: SLOW_FALLING
+    lore:
+      - '&fBuy Price: &#0bf52b$%price%'
+
+
+
+#page2:
+#
+#  apple:
+#    price: 50
+#    slot: 9
+#    giveitem: true
+#    givelore: false
+#    command: ''
+#    material: APPLE
+#    displayname: ''
+#    amount: 1
+#    lore:
+#      - '&fBuy Price: &#0bf52b$%price%'
+#
+#  carrot:
+#    price: 50
+#    slot: 10
+#    giveitem: true
+#    givelore: false
+#    command: ''
+#    material: CARROT
+#    displayname: ''
+#    amount: 1
+#    lore:
+#      - '&fBuy Price: &#0bf52b$%price%'
+
